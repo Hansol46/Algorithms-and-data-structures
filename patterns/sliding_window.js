@@ -47,8 +47,8 @@ function maxSubarraySum(arr, k = 3) {
 /**
 * Задача: Найти максимальную последовательность гласных в подстроке k и вернуть число. 
 * Ответ: 3 → iii
-* Сложность: 
-* Пространственная сложность:
+* Сложность: O(n)
+* Пространственная сложность: O(1)
 */ 
 const string = "abciiidef"
 function maxVowels(string, k = 3) {
@@ -75,4 +75,29 @@ function maxVowels(string, k = 3) {
   }
   
   return maxCount; 
+}
+
+/**
+* Maximum Average Subarray  
+* Oтвет: 12.75 (12 - 5 -6 + 50) / 4
+* Сложность алгоритма: O(n)
+* Пространственная сложность: O(1) 
+*/
+const nums = [1,12,-5,-6,50,3]
+function findMaxAverage(array, k = 4) {
+  let maxSum = 0;
+  let windowSum = 0; // 1 + 12 - 5 - 6
+  
+  for(let i = 0; i < k; i++) {
+    windowSum += array[i]
+  }
+  
+  maxSum = windowSum;
+  for(let end = k; end < array.length; end++) {
+    windowSum += array[end]
+    windowSum -= array[end - k]
+
+    maxSum = Math.max(maxSum, windowSum)
+  }
+  return maxSum / k
 }
