@@ -63,3 +63,32 @@ function twoSum(arr, target = 8){
     }
   }
 }
+
+/**
+* Cointainer With Most Water
+* Ответ: 49 - максимальная площадь
+* Алгоритмическая сложность: O(n)
+* Пространственная сложность: O(1)
+*/
+const arr = [1,8,6,2,5,4,8,3,7];
+function findMaxContainerSqured(arr){
+  let left = 0;
+  let right = arr.length - 1;
+  let maxArea = 0;
+  
+  while(left < right) {
+    const width = right - left;
+    const height = Math.min(arr[right], arr[left]);
+    const area = width * height;
+
+    maxArea = Math.max(maxArea, area)
+    
+    if(arr[left] < arr[right]) {
+      left++
+    } else {
+      right--;
+    }
+  }
+  
+  return maxArea;
+}
