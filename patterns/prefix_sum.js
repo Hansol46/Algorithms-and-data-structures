@@ -17,6 +17,29 @@
 */ 
 
 /**
+* Найти количество подмассивов, сумма которых равна k
+* Ответ: [1,2], [2,1], [1,2], [2,1] - 4
+* Алгоритмическая сложность: O(n)
+* Пространственная сложность: O(n)
+*/
+const arr = [1,2,1,2,1]
+function maxSumSubarray(arr,k = 3) { 
+  let currentSum = 0;  
+  const map = { 0: 1 }; 
+  let count = 0; 
+  
+  for(let num of arr) { 
+    currentSum += num; 
+    if(map[currentSum - k]){
+       count += map[currentSum - k] 
+    } 
+    
+    map[currentSum] = (map[currentSum] || 0 ) + 1; 
+  } 
+  return count 
+};
+
+/**
 * Subarray Divisible by K
 * Алгоритмическая сложность: O(n)
 * Пространственная сложность: O(1)
