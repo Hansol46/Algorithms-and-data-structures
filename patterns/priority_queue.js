@@ -1,5 +1,16 @@
 /**
+* Priority queue pattern - Это тип задач где чаще всего используется Heap.
+* Найти два самых больших элемента в массиве или найти второй самый большой элемент. 
+* 
+
+* Template:
+* for (let item of data) {
+*   heap.push(item)
 *
+*   if (heap.size() > k) {
+*     heap.pop()
+*   }
+* }
 */
 
 /**
