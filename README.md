@@ -208,3 +208,5 @@ const graph = {
 <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/selection_sort.js'> Выборочная сортировка </a>
 <br />
 <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/quick_sort.js'> Быстрая сортировка </a>
+<br />
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/merge_sort.js'> Сортировка слиянием </a>
