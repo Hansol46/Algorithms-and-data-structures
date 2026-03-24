@@ -183,28 +183,28 @@ const graph = {
 
 ## Паттерны
 
-| Паттерн        | Описание     |
-| -------------- | -------------------------- |
-| Two pointers   | Двигаем 2 указателя        |
-| Sliding window | Двигаем окно               |
+| Паттерн        | Описание     | Пример |
+| -------------- | -------------------------- | -------------------------- |
+| Two pointers   | Двигаем 2 указателя        | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/two_pointers.js'> Пример </a> |
+| Sliding window | Двигаем окно               | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/sliding_window.js'> Пример </a> |
 | Hashing        | Запоминаем, что уже видели |
 | Prefix sum     | Считаем заранее            |
 | Greedy         | Берём лучшее сейчас        |
 | Binary search  | Делим пополам              |
-| Recursion      | Думаем “часть → целое”     |
+| Recursion      | Function вызывает сама себя| <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/recursion.js'> Пример </a> |
 | DFS / BFS      | Обход структуры            |
 
 
 ## Алгоритмы
 
 ### Поиск:
-<a href='https://github.com/Hansol46/Algorithms-and-structures/blob/main/linear_search.js'> Линейный поиск </a>
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/searching/linear_search.js'> Линейный поиск </a>
 <br />
-<a href='https://github.com/Hansol46/Algorithms-and-structures/blob/main/binary_search.js'> Двоичный поиск </a>
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/searching/binary_search.js'> Двоичный поиск </a>
 
 ### Сортировка:
-<a href='https://github.com/Hansol46/Algorithms-and-structures/blob/main/bubble_sort.js'> Пузырьковая сортировка </a>
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/bubble_sort.js'> Пузырьковая сортировка </a>
 <br />
-<a href='https://github.com/Hansol46/Algorithms-and-structures/blob/main/selection_sort.js'> Выборочная сортировка </a>
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/selection_sort.js'> Выборочная сортировка </a>
 <br />
-<a href='https://github.com/Hansol46/Algorithms-and-structures/blob/main/quick_sort.js'> Быстрая сортировка </a>
+<a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/sorting/quick_sort.js'> Быстрая сортировка </a>
