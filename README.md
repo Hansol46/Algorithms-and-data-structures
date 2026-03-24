@@ -181,19 +181,30 @@ const graph = {
 };
 ```
 
-## Паттерны
+## Паттерны (база)
 
 | Паттерн        | Описание     | Пример |
 | -------------- | -------------------------- | -------------------------- |
 | Two pointers   | Двигаем 2 указателя        | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/two_pointers.js'> Пример </a> |
 | Sliding window | Двигаем окно               | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/sliding_window.js'> Пример </a> |
-| Hashing        | Запоминаем, что уже видели |
-| Prefix sum     | Считаем заранее            | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/prefix_sum.js'> Пример </a> |
-| Greedy         | Берём лучшее сейчас        |
-| Binary search  | Делим пополам              |
-| Recursion      | Function вызывает сама себя| <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/recursion.js'> Пример </a> |
-| DFS / BFS      | Обход структуры            |
+| Prefix sum     | Считаем заранее      | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/prefix_sum.js'> Пример </a> |
+| Backtraking    | Перебор всех вариантов по шагам | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/backtracking.js'> Пример </a> |
+| Intervals      | |
+| topological sort | |
 
+## Паттерны + подходы + структуры и техники
+
+| Паттерн        | Описание     | Пример |
+| -------------- | -------------------------- | -------------------------- |
+| Two pointers   | Двигаем 2 указателя        | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/two_pointers.js'> Пример </a> |
+| Sliding window | Двигаем окно               | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/sliding_window.js'> Пример </a> |
+| Prefix sum + HashMap | Считаем заранее      | <a href='https://github.com/Hansol46/Algorithms-and-data-structures/blob/main/patterns/prefix_sum.js'> Пример </a> |
+| Binary Search  | Делим пополам              | 
+| DFS / BFS      | Обход структуры            |
+| Heap (Top K pattern)| | |
+| Monotonic Stack | | |
+| Intervals | | |
+| Topological Sort | | |
 
 ## Алгоритмы
 
