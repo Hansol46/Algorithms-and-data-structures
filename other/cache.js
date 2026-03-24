@@ -1,7 +1,7 @@
 /**
 * Базовая функция кэширования. 
 */ 
-function cashFunction(fn){
+function cacheFunction(fn){
   const map = new Map();
   
   return function(...args) {
@@ -28,7 +28,7 @@ function factorial(n) {
   return result
 }
 
-const cachedFactorial = cashFunction(factorial)
+const cachedFactorial = cacheFunction(factorial)
 console.log(cachedFactorial(5)); // 120 (вычисляется)
 console.log(cachedFactorial(5)); // 120 (берется из кэша)
 console.log(cachedFactorial(6)); // 720 (вычисляется)
